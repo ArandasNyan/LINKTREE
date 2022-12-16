@@ -7,7 +7,7 @@ toggle.onclick = function() {
 }
 
 /* putting time in title */
-const Title = document.querySelector("title")
+const Title = document.querySelector(".title")
 
 const clock = setInterval(function time() {
   let dateToday = new Date()
